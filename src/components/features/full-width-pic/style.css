@@ -1,0 +1,8 @@
+.full-pic {
+  width: 100vw;
+  grid-row-start: 3;
+}
+
+.full-pic img {
+  width: 100%;
+}

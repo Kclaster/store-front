@@ -1,0 +1,14 @@
+.navbar {
+  grid-column: 6 / 12;
+  text-align: center;
+}
+
+.link {
+  margin: 0 1vw;
+  color: #d6d6d6;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

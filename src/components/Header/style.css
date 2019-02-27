@@ -1,0 +1,22 @@
+.header {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background: #404040;
+  color: #d6d6d6;
+  z-index: 5;
+  position: fixed;
+  height: 60px;
+  top: 0;
+  align-items: end;
+}
+
+.logo {
+  height: 40px;
+  grid-area: 1 / 1;
+  align-self: start;
+}
+
+.logo img {
+  height: 100%;
+}

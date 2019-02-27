@@ -1,0 +1,33 @@
+.footer {
+  height: 120px;
+  background: #404040;
+  position: absolute;
+  width: 100vw;
+  z-index: 5;
+  color: #d6d6d6;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+  grid-template-rows: auto;
+  align-items: center;
+}
+
+.logo {
+  width: 2.5vw;
+  margin: 1vh 1vw;
+}
+
+a {
+  color: #d6d6d6;
+  justify-self: start;
+  grid-area: 1/ 1;
+}
+
+.footer h5 {
+  grid-area: 1 / 2;
+}
+
+#reference {
+  grid-area: 2/ 2;
+  font-size: 11px;
+}

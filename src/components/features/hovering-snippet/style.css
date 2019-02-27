@@ -1,0 +1,53 @@
+.snippet-container {
+  position: relative;
+  z-index: 2;
+  background: white;
+  width: 100vw;
+  padding: 0 4vw 6vh 4vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-area: 2 / 1 / 3 / 5;
+}
+
+.snippet {
+  width: 15vw;
+  z-index: 1;
+  position: relative;
+  display: grid;
+  justify-items: center;
+}
+
+.snippet img {
+  width: 100%;
+  filter: brightness(0.75);
+  z-index: 1;
+}
+
+.onhover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #404040;
+  opacity: 0;
+  z-index: 5;
+}
+
+.snippet:hover .onhover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.snippet:hover h2 {
+  cursor: pointer;
+}
+
+.snippet:hover .snippet-title {
+  text-decoration: underline;
+}
+
+.snippet-title {
+  position: absolute;
+  top: 50%;
+  z-index: 6;
+  color: white;
+}

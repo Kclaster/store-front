@@ -1,0 +1,54 @@
+.static-image {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  filter: brightness(0.7);
+}
+
+.title {
+  color: #d6d6d6;
+  z-index: 2;
+  position: fixed;
+  font-size: 55px;
+  opacity: 0;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  1% {
+    opacity: 1;
+  }
+  95% {
+    transform: translateY(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#main-title-1 {
+  animation: 0.4s linear 0s 1 slideInFromBottom;
+  animation-fill-mode: forwards;
+  left: 55%;
+  top: 25%;
+}
+
+.hide {
+  opacity: 0;
+  color: transparent;
+}
+
+.show {
+  opacity: 1;
+}
+
+#main-title-2 {
+  animation: 0.4s linear 0.7s 1 slideInFromBottom;
+  animation-fill-mode: forwards;
+  left: 60%;
+  top: 35%;
+}
