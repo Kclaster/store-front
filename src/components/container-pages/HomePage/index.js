@@ -25,17 +25,19 @@ class HomePage extends React.Component {
 
   showImage = () => {
     let img = document.getElementById('full-pic');
+    //if clause is necessary because this function is not unmounting. Why not?
+    if (img) {
+      let coords = img.getBoundingClientRect();
 
-    let coords = img.getBoundingClientRect();
-
-    if (coords.y <= 0) {
-      this.setState({
-        secondBackground: true
-      });
-    } else {
-      this.setState({
-        secondBackground: false
-      });
+      if (coords.y <= 0) {
+        this.setState({
+          secondBackground: true
+        });
+      } else {
+        this.setState({
+          secondBackground: false
+        });
+      }
     }
   };
 

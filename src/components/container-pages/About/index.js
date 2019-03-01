@@ -1,5 +1,7 @@
 import React from 'react';
 
+import GoogleApiWrapper from '../../features/googleMaps';
+
 import storefront from '../../../pics/store.jpg';
 import Header from '../../Header';
 import Footer from '../../Footer';
@@ -10,6 +12,7 @@ const About = () => {
     <div className="about">
       <Header />
       <img className="about-main-pic" src={storefront} />
+      <div className="google-map-container" />
       <div className="about-body-container">
         <h2 class="about-title">58 Degrees North</h2>
         <div className="p-container">

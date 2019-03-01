@@ -1,0 +1,6 @@
+.display-grid-container {
+  display: flex;
+  margin: 10vh 10vw;
+  justify-content: center;
+  flex-wrap: wrap;
+}

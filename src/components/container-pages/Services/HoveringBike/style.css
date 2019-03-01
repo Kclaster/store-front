@@ -1,0 +1,109 @@
+.hover-bike {
+  width: 100%;
+}
+
+.hovering-bike-container {
+  width: 500px;
+  position: relative;
+}
+
+.wheel {
+  background: green;
+  opacity: 0.5;
+  width: 184px;
+  height: 185px;
+  border-radius: 50%;
+  position: absolute;
+  top: 119px;
+  left: 18px;
+}
+
+.wheel2 {
+  background: green;
+  opacity: 0.5;
+  width: 184px;
+  height: 185px;
+  border-radius: 50%;
+  position: absolute;
+  top: 119px;
+  right: 18px;
+}
+
+.fork {
+  background: red;
+  opacity: 0.5;
+  height: 89px;
+  width: 17px;
+  position: absolute;
+  top: 121px;
+  right: 125px;
+  -webkit-transform: rotate(-29deg);
+  transform: rotate(-29deg);
+}
+
+.head-tube {
+  background: blue;
+  opacity: 0.5;
+  height: 57px;
+  width: 21px;
+  position: absolute;
+  top: 62px;
+  right: 149px;
+  -webkit-transform: rotate(-29deg);
+  transform: rotate(-18deg);
+}
+
+.crank {
+  background: purple;
+  opacity: 0.5;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: absolute;
+  top: 208px;
+  right: 245px;
+}
+
+.handle-bar {
+  background: yellow;
+  opacity: 0.5;
+  height: 59px;
+  width: 26px;
+  position: absolute;
+  top: 18px;
+  right: 123px;
+  -webkit-transform: rotate(-29deg);
+  transform: rotate(89deg);
+}
+
+.cassette {
+  background: orange;
+  opacity: 0.5;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: absolute;
+  top: 181px;
+  right: 361px;
+}
+
+.chain1,
+.chain2 {
+  background: greenyellow;
+  opacity: 0.5;
+  height: 89px;
+  width: 9px;
+  position: absolute;
+}
+
+.chain1 {
+  transform: rotate(108deg);
+  top: 196px;
+  right: 333px;
+}
+
+.chain2 {
+  transform: rotate(95deg);
+  top: 163px;
+  right: 327px;
+}

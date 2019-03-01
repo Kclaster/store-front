@@ -13,7 +13,7 @@ import './App.css';
 const App = () => {
   return (
     <div>
-      <BrowserRouter basename="/58degrees">
+      <BrowserRouter basename="/store-front">
         <div>
           <Route path="/" exact component={HomePage} />
           <Route path="/about" exact component={About} />

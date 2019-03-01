@@ -1,0 +1,24 @@
+.service-button {
+  border: 1px solid #404040;
+  background: #404040;
+  color: #d6d6d6;
+  width: 80px;
+  height: 65px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.service-button:hover {
+  color: #404040;
+  background: #d6d6d6;
+}
+
+.service-button:active {
+  transform: translateY(4px);
+}
+
+.button-title {
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+}
