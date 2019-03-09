@@ -6,3 +6,16 @@ export const setHeight = action => {
     payload: action
   };
 };
+
+export const signIn = action => {
+  return {
+    type: SIGN_IN,
+    payload: action
+  };
+};
+
+export const signOut = () => {
+  return {
+    type: SIGN_OUT
+  };
+};

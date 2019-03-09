@@ -11,10 +11,10 @@ class Services extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: null,
-      heading: 'OVERVIEW',
-      description:
-        'We’ve provided Kodiak with the finest service for the past 25 years running.  With over 30 years experience servicing and selling bicycles, we will make your ride a smooth sailing machine! We also do custom bike builds, pro wheel builds, hydraulic brake, suspension service and repair as well as complete bicycle overhauls.',
+      title: 'Need help getting your bike back on the road?',
+      heading:
+        'Click on the bike where you need service or choose from the menu below.',
+      description: null,
       star: null,
       subService: null,
       index: null,

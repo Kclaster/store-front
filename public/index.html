@@ -17,6 +17,20 @@
       href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed"
       rel="stylesheet"
     />
+    <script
+      src="https://apis.google.com/js/platform.js?onload=triggerGoogleLoaded"
+      async
+      defer
+    ></script>
+    <script type="text/javascript">
+      function triggerGoogleLoaded() {
+        window.dispatchEvent(new Event('google-loaded'));
+      }
+    </script>
+    <meta
+      name="google-signin-client_id"
+      content="96965206631-cvnpql6ur8oojjpc72mjq6c69tbncd8v.apps.googleusercontent.com"
+    />
 
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.

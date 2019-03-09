@@ -31,7 +31,7 @@
 }
 
 #main-title-1 {
-  animation: 0.4s linear 0s 1 slideInFromBottom;
+  animation: 0.4s linear 0.8s 1 slideInFromBottom;
   animation-fill-mode: forwards;
   left: 55%;
   top: 25%;
@@ -47,7 +47,7 @@
 }
 
 #main-title-2 {
-  animation: 0.4s linear 0.7s 1 slideInFromBottom;
+  animation: 0.4s linear 1.5s 1 slideInFromBottom;
   animation-fill-mode: forwards;
   left: 60%;
   top: 35%;

@@ -48,7 +48,6 @@ class StaticImage extends React.Component {
   };
 
   render() {
-    console.log(this.state.secondBackground.secondBackground);
     return (
       <div>
         <img
